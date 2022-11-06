@@ -41,6 +41,11 @@ body {
   filter: blur(5px);
 }
 
+.img-wrapper:hover > img.gray {
+    filter: grayscale(1)
+  }
+
+
 .img-wrapper:hover > img.zoom {
   transform: scale(1.1);
 }
